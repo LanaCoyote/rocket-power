@@ -1941,4 +1941,673 @@ LogInit: Object subsystem initialized
 [2016.06.16-02.23.29:058][153]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=820.849 Y=614.246 Z=165.004] for [FirstPersonProjectile_C]
 [2016.06.16-02.24.06:718][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2016.06.16-02.24.06:763][296]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
-[2016.06.16-02.24.06:800][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExamp
+[2016.06.16-02.24.06:800][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.06.16-02.24.06:814][296]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49557, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_42, IsServer: YES, PC: None, Owner: None
+[2016.06.16-02.24.06:814][296]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49557, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_42, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2016.06.16-02.24.06
+[2016.06.16-02.24.06:814][296]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49557, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_42, IsServer: YES, PC: None, Owner: None
+[2016.06.16-02.24.06:814][296]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_43, IsServer: NO, PC: None, Owner: None
+[2016.06.16-02.24.06:814][296]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_43, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2016.06.16-02.24.06
+[2016.06.16-02.24.06:814][296]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_43, IsServer: NO, PC: None, Owner: None
+[2016.06.16-02.24.06:816][296]LogExit: GameNetDriver None shut down
+[2016.06.16-02.24.06:817][296]LogExit: GameNetDriver None shut down
+[2016.06.16-02.24.32:465][370]LogSavePackage: Save=964.82ms
+[2016.06.16-02.24.32:465][370]LogSavePackage: Moving '../../../../../Unreal Projects/RocketPower/Saved/FirstPersonExampleMap_Auto5A32838AC42DA8C9B61CC509F18B40EBB.tmp' to '../../../../../Unreal Projects/RocketPower/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2016.06.16-02.24.32:466][370]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/RocketPower/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2016.06.16-02.24.32:468][370]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.998
+[2016.06.16-02.24.32:468][370]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.998
+[2016.06.16-02.43.16:041][934]SourceControl: Info On branch master
+[2016.06.16-02.43.16:041][934]SourceControl: Info Initial commit
+[2016.06.16-02.43.16:041][934]SourceControl: Info Changes to be committed:
+[2016.06.16-02.43.16:041][934]SourceControl: Info   (use "git rm --cached <file>..." to unstage)
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Config/DefaultEditor.ini
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Config/DefaultEditorPerProjectUserSettings.ini
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Config/DefaultEngine.ini
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Config/DefaultGame.ini
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Config/DefaultInput.ini
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Fire.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Idle.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Animations/FirstPerson_Run.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2016.06.16-02.43.16:041][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/BaseMaterial.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/CubeMaterialOverride.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/FirstPersonOverview.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/Geometry/Meshes/CubeMaterial.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/Geometry/Meshes/TemplateFloor.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x200.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x300.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_400x400.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_500x500.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse02.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Collapse_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion02.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Explosion_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire01_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light01_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Light02_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Birds01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind05.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Starter_Wind06.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Audio/Steam01_Cue.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Maps/Advanced_Lighting.umap
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Maps/Minimal_Default.umap
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Maps/StarterMap.umap
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Glass.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2016.06.16-02.43.16:042][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Lake.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Explosion.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Fire.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Smoke.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Sparks.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/MaterialSphere.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Bush.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Chair.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Door.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Frame.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Rock.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_Statue.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Bush.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Chair.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_CornerFrame.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Couch.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Door.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_DoorFrame.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_GlassWindow.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Rock.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Shelf.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Stairs.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_Statue.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_TableRound.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Props/SM_WindowFrame.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cone.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cube.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Plane.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Torus.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Tube.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Burst_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_D.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Bush_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_M.uasset
+[2016.06.16-02.43.16:043][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Chair_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Door_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Frame_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Lamp_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_MacroVariation.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Shelf_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Spark_Core.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Statue_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_TableRound_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Water_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/1d5167fa.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/2657c409.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/5a627529.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/866581fd.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/8c0e1344.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/AssetRegistryCache/94c5d5a7.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/CachedAssetRegistry.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Compat.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/DeviceProfiles.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Editor.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/EditorKeyBindings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/EditorLayout.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/GameUserSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/GameplayTags.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Hardware.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/InternationalizationExport.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/LocalizationServiceSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/Scalability.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/SourceControlSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/TemplateDefs.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/Config/CoalescedSourceConfigs/TranslationPickerSettings.ini
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Intermediate/ReimportCache/3688439234.bin
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   RocketPower.uproject
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/AutoScreenshot.png
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2016.06.16-02.43.16:044][934]SourceControl: Info 	new file:   Saved/Autosaves/PackageRestoreData.json
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-14-22-14-00.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-14-22-19-15.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-14-22-24-46.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-14-22-44-35.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-20-58-39.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-21-04-02.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-21-23-00.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-21-38-44.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-21-45-10.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-21-51-23.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-22-14-22.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonCharacter_2016-06-15-22-20-40.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-22-17-40.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-22-24-45.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-22-39-16.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-22-47-13.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-22-59-06.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-14-23-08-27.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-20-58-37.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-21-13-57.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-21-25-21.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-21-38-43.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-21-56-32.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonExampleMap_2016-06-15-22-24-31.umap
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-14-22-03-26.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-14-22-17-41.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-14-22-24-18.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-14-22-30-58.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-14-22-35-58.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-15-20-48-19.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/FirstPersonProjectile_2016-06-15-21-50-20.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Backup/Floor_400x400_2016-06-14-21-52-51.uasset
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Compat.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/DeviceProfiles.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Editor.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Engine.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Game.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/GameUserSettings.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/GameplayTags.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Hardware.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Input.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/InternationalizationExport.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Lightmass.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/LocalizationServiceSettings.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/Scalability.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/SourceControlSettings.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/TemplateDefs.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/Windows/TranslationPickerSettings.ini
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Config/WorldState/2733464406.json
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Logs/RocketPower-backup-2016.06.14-22.40.10.log
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Logs/RocketPower-backup-2016.06.15-20.47.09.log
+[2016.06.16-02.43.16:045][934]SourceControl: Info 	new file:   Saved/Logs/RocketPower.log
+[2016.06.16-02.43.24:999][948]SourceControl:Error: Error fatal: Not a git repository: 'D:/Unreal 4/Epic Games/4.12/Engine/Content/.git'
+[2016.06.16-02.43.24:999][948]EditorErrors:Warning: Warning Failed checking source control status!
+[2016.06.16-03.50.17:341][509]LogSavePackage: Save=885.09ms
+[2016.06.16-03.50.17:341][509]LogSavePackage: Moving '../../../../../Unreal Projects/RocketPower/Saved/FirstPersonExampleMapD258F68D461237A9BA22BE938B1C1C0C.tmp' to '../../../../../Unreal Projects/RocketPower/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.06.16-03.50.17:345][509]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/RocketPower/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.06.16-03.50.17:363][509]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.973
+[2016.06.16-03.50.17:585][510]Cmd: QUIT_EDITOR
+[2016.06.16-03.50.18:553][510]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.16-03.50.18:585][510]LogExit: Preparing to exit.
+[2016.06.16-03.50.19:522][510]LogExit: Editor shut down
+[2016.06.16-03.50.19:522][510]LogExit: Transaction tracking system shut down
+[2016.06.16-03.50.19:749][510]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.16-03.50.19:750][510]LogExit: Object subsystem successfully closed.
+[2016.06.16-03.50.19:764][510]LogD3D11RHI: Shutdown
+[2016.06.16-03.50.19:764][510]LogD3D11RHI: CleanupD3DDevice
+[2016.06.16-03.50.19:839][510]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (218)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.06.16-03.50.19:845][510]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.06.16-03.50.19:847][510]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.06.16-03.50.19:848][510]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.06.16-03.50.19:863][510]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.06.16-03.50.19:864][510]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.06.16-03.50.19:864][510]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.06.16-03.50.19:864][510]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.06.16-03.50.19:864][510]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.06.16-03.50.19:864][510]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.06.16-03.50.19:906][510]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.06.16-03.50.19:985][510]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.06.16-03.50.19:985][510]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.16-03.50.19:986][510]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.16-03.50.19:987][510]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.06.16-03.50.19:988][510]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.06.16-03.50.19:988][510]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.06.16-03.50.20:089][510]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.06.16-03.50.20:091][510]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.06.16-03.50.20:092][510]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.06.16-03.50.20:286][510]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.16-03.50.20:286][510]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.16-03.50.20:286][510]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.16-03.50.20:286][510]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.06.16-03.50.20:303][510]LogDerivedDataCache: Shutdown
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.16-03.50.20:303][510]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.16-03.50.24:915][510]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.16-03.50.24:921][510]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.16-03.50.24:923][510]LogExit: Exiting.
+[2016.06.16-03.50.24:936][510]Log file closed, 06/15/16 23:50:24
